@@ -1,3 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Adaptação para telas menores (como celular) */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -125,17 +139,6 @@ button:hover {
 
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-}
 
-/* Adaptação para telas menores (como celular) */
-@media (max-width: 600px) {
-  .container {
-    flex-direction: column;
-    padding: 10px;
-  }
-}
 
 
