@@ -125,3 +125,12 @@ button:hover {
 
 }
 
+@media (max-width: 768px) {
+  .conteudo {
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+
+
+
