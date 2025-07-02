@@ -125,12 +125,17 @@ button:hover {
 
 }
 
-@media (max-width: 768px) {
-  .conteudo {
-    flex-direction: column;
-    padding: 20px;
-  }
+.container {
+  display: flex;
+  justify-content: space-between;
 }
 
+/* Adaptação para telas menores (como celular) */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
 
 
